@@ -1,14 +1,14 @@
-public class OperaçõesSimplesElementosVetor {
-    public static void main(String[] args) {
-       int[] vetor = new int[4];
-       vetor[0] = 10;
-       vetor[1] = 20;
-       vetor[2] = 30;
-       vetor[3] = 40;
+    public class OperaçõesSimplesElementosVetor {
+        public static void main(String[] args) {
 
+            int [] valores = new int[5];
+            valores[0] = 10;
+            valores[1] = 20;
+            valores[2] = 30;
+            valores[3] = 40;
+            valores[4] = 50;
 
-       int soma = vetor[3] + vetor[1];
-        System.out.println("Soma: " + soma);
+            System.out.println("O tercelo valor é "+valores[2]);
 
+        }
     }
-}
